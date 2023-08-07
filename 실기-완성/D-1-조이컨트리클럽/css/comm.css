@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: #333;
+}
+.inner {
+    display: flex;
+    background: lightblue;
+}
+footer {
+    height: 100px;
+    background: lightgreen;
+}
+header {
+    width: 200px;
+}
+main {
+    /* width: calc(100% - 200px); */
+    flex-grow: 1;
+}
